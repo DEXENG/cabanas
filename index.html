@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div
+      class="container-fluid"
+      style="background-color: #2f3060; color: white"
+    >
+      <br />
+      <img
+        height="70"
+        width="140"
+        src="https://evoxaovivo.com.br/wp-content/uploads/2020/06/logoEvoxFundoRoxo.png"
+      />
+      <hr />
+      <div id="cabecalho">
+        <h3 style="color: #ff5ac4">
+          Qual é o seu estilo para lidar com mudanças?
+        </h3>
+        <h4>
+          Para os 16 itens abaixo, atribua uma pontuação para cada uma das quatro
+          escolhas de acordo com a legenda a seguir:
+        </h4>
+        <h4>
+          1 = resposta que é
+          <em>mais</em>
+          parecida com você
+        </h4>
+        <h4>
+          2 = resposta que é
+          <em>um pouco menos</em>
+          parecida com você
+        </h4>
+        <h4>
+          3 = resposta que é
+          <em>ainda menos</em>
+          parecida com você
+        </h4>
+        <h4>
+          4 = resposta que é
+          <em>quase nada</em>
+          parecida com você
+        </h4>
+      </div> 
+      <img
+        height="90"
+        width="90"
+        alt="Raposa"
+        src="#"
+      />
+      <img
+        height="90"
+        width="90"
+        alt="Golfinho"
+        src="#"
+      />
+      <img
+        height="70"
+        width="70"
+        alt="Castor"
+        src="#"
+      />
+      <img
+        height="70"
+        width="70"
+        alt="Coruja"
+        src="#"
+      />
+      <hr />
+      <h4>1 - Eu prefiro estudar</h4>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n1">artes e artesanato</label>
+        <div>
+          <select id="n1">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n2"
+          >literatura e ciências humanas</label
+        >
+        <div>
+          <select id="n2">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n3">negócios e economia</label>
+        <div>
+          <select id="n3">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n4">ciências e engenharia</label>
+        <div>
+          <select id="n4">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <hr />
+      <h4>2 - Eu me sinto melhor quanto a mim mesmo quando</h4>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n5">estou naturalmente em ação</label>
+        <div>
+          <select id="n5">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n6"
+          >estou estabelecendo uma boa relação com alguém</label
+        >
+        <div>
+          <select id="n6">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n7"
+          >estou sendo considerado totalmente confiável</label
+        >
+        <div>
+          <select id="n7">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n8"
+          >estou exercendo minha criatividade</label
+        >
+        <div>
+          <select id="n8">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+
+        </div>
+      </div>
+      <hr />
+      <h4>3 – Quanto ao meu humor, com mais frequência estou</h4>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n9">agitado e estimulado</label>
+        <div>
+          <select id="n9">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n10">entusiasmado e inspirado</label>
+        <div>
+          <select id="n10">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+          <script type="application/json" data-for="n10" data-nonempty="">
+            {}
+          </script>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n11">cauteloso e prudente</label>
+        <div>
+          <select id="n11">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n12">calmo e distante</label>
+        <div>
+          <select id="n12">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <hr />
+      <h4>4 – Eu sempre retorno ao seguinte comportamento</h4>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n13">aperfeiçoar o meu ofício</label>
+        <div>
+          <select id="n13">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n14"
+          >ajudar outras pessoas a se afirmar</label
+        >
+        <div>
+          <select id="n14">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n15"
+          >ajudar outras pessoas a fazer o certo</label
+        >
+        <div>
+          <select id="n15">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n16"
+          >entender como as coisas funcionam</label
+        >
+        <div>
+          <select id="n16">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <hr />
+      <h4>5 - Resumindo, eu tendo a ser</h4>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n17">prático e oportunista</label>
+        <div>
+          <select id="n17">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n18">compreensivo e altruísta</label>
+        <div>
+          <select id="n18">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n19">responsável e diligente</label>
+        <div>
+          <select id="n19">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n20">eficiente e pragmático</label>
+        <div>
+          <select id="n20">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <hr />
+      <h4>6 - Eu respeito a mim mesmo principalmente por</h4>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n21">ser ousado e aventureiro</label>
+        <div>
+          <select id="n21">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n22">ser bondoso e benevolente</label>
+        <div>
+          <select id="n22">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n23"
+          >ter realizado grandes feitos</label
+        >
+        <div>
+          <select id="n23">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n24"
+          >ser autônomo e independente</label
+        >
+        <div>
+          <select id="n24">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <hr />
+      <h4>7 - Eu sou mais inclinado a confiar em</h4>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n25">impulsos e inspirações</label>
+        <div>
+          <select id="n25">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n26">intuições e sugestões</label>
+        <div>
+          <select id="n26">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n27">hábitos e tradições</label>
+        <div>
+          <select id="n27">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n28">raciocínio e lógica</label>
+        <div>
+          <select id="n28">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <hr />
+      <h4>8 - Muitas vezes eu fico ansioso para</h4>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n29"
+          >causar impressão e exercer impacto</label
+        >
+        <div>
+          <select id="n29">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n30"
+          >me perder em sonhos românticos</label
+        >
+        <div>
+          <select id="n30">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n31"
+          >ser um integrante valorizado e legítimo</label
+        >
+        <div>
+          <select id="n31">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n32"
+          >fazer um grande avanço científico</label
+        >
+        <div>
+          <select id="n32">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <hr />
+      <h4>9 - Minha busca de uma vida inteira é por mais</h4>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n33">emoções e aventuras</label>
+        <div>
+          <select id="n33">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n34">autoconhecimento</label>
+        <div>
+          <select id="n34">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n35">segurança</label>
+        <div>
+          <select id="n35">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n36"
+          >métodos eficientes de funcionamento</label
+        >
+        <div>
+          <select id="n36">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <hr />
+      <h4>10 - Olhando para o futuro</h4>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n37"
+          >eu aposto que algo de sorte irá ocorrer</label
+        >
+        <div>
+          <select id="n37">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n38"
+          >eu acredito na bondade inata das pessoas</label
+        >
+        <div>
+          <select id="n38">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n39"
+          >todo cuidado ainda é pouco</label
+        >
+        <div>
+          <select id="n39">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n40"
+          >é melhor manter um olhar cauteloso</label
+        >
+        <div>
+          <select id="n40">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <hr />
+      <h4>11 - Se possível, eu gostaria de me tornar um</h4>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n41">artista talentoso</label>
+        <div>
+          <select id="n41">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n42">sábio profeta</label>
+        <div>
+          <select id="n42">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n43">executivo chefe</label>
+        <div>
+          <select id="n43">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n44">gênio tecnológico</label>
+        <div>
+          <select id="n44">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <hr />
+      <h4>12 - Eu prefiro um emprego no qual eu trabalhe com</h4>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n45"
+          >equipamentos e ferramentas</label
+        >
+        <div>
+          <select id="n45">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n46"
+          >desenvolvimento de recursos humanos</label
+        >
+        <div>
+          <select id="n46">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n47">materiais e serviços</label>
+        <div>
+          <select id="n47">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n48">sistemas e estruturas</label>
+        <div>
+          <select id="n48">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <hr />
+      <h4>13 - Como diretriz para ação eu procuro geralmente por</h4>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n49">vantagens imediatas</label>
+        <div>
+          <select id="n49">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n50">possibilidades futuras</label>
+        <div>
+          <select id="n50">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n51">experiência passada</label>
+        <div>
+          <select id="n51">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n52"
+          >condições necessárias e suficientes</label
+        >
+        <div>
+          <select id="n52">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <hr />
+      <h4>14 - Eu me sinto mais autoconfiante quando sou</h4>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n53">adaptável e flexível</label>
+        <div>
+          <select id="n53">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n54">sincero e autêntico</label>
+        <div>
+          <select id="n54">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n55">digno e respeitável</label>
+        <div>
+          <select id="n55">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n56">decidido e corajoso</label>
+        <div>
+          <select id="n56">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <hr />
+      <h4>15 - Eu sou grato quando as pessoas</h4>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n57"
+          >me surpreendem com generosidade</label
+        >
+        <div>
+          <select id="n57">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n58"
+          >reconhecem o meu eu verdadeiro</label
+        >
+        <div>
+          <select id="n58">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n59">expressam sua gratidão</label>
+        <div>
+          <select id="n59">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n60"
+          >pedem as minhas razões e lógica</label
+        >
+        <div>
+          <select id="n60">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <hr />
+      <h4>16 - Quando penso sobre adversidades</h4>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n61"
+          >usualmente minimizo sua gravidade usando o humor</label
+        >
+        <div>
+          <select id="n61">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n62"
+          >frequentemente me pergunto 'por que?'</label
+        >
+        <div>
+          <select id="n62">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n63"
+          >tento aproveitá-las o melhor possível</label
+        >
+        <div>
+          <select id="n63">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group shiny-input-container">
+        <label class="control-label" for="n64"
+          >eu as encaro a partir de uma ampla perspectiva</label>
+        <div>
+          <select id="n64">
+            <option value="1" selected>1 mais parecida</option>
+            <option value="2">2 um pouco menos parecida</option>
+            <option value="3">3 ainda menos parecida</option>
+            <option value="4">4 quase nada parecida</option>
+          </select>
+        </div>
+      </div>
+      <hr />
+      <h4>
+        <p style="font-family: tahoma; color: #ff5ac4">
+          <strong>Soma:</strong>
+        </p>
+      </h4>
+      <pre id="resultadoSoma" class="shiny-text-output noplaceholder"></pre>
+      <h4>
+        <p style="font-family: tahoma; color: #ff5ac4">
+          <strong>Temperamento:</strong>
+        </p>
+      </h4>
+      <pre id="resultadoTemperamento" class="shiny-text-output noplaceholder"></pre>
+      <br />
+      <div>
+        <button id="btnPrint">Imprimir</button>
+    </div>
+      <br />
+    </div>
+  </body>
+</html>
