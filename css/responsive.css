@@ -1,14 +1,48 @@
-/* Defina a altura do mapa para 500 pixels */
-#map {
-  height: 500px;
+/* Estilo para o corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-/* Adicione margem inferior para separar o formulário da coluna */
-.col-md-4 {
+/* Estilo para o cabeçalho da página */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilo para os links da navegação */
+nav a {
+  color: #fff;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+/* Estilo para a seção principal da página */
+main {
+  margin: 20px;
+}
+
+/* Estilo para as seções da página */
+section {
+  border: 1px solid #ccc;
   margin-bottom: 20px;
+  padding: 20px;
 }
 
-.img
-  height="70"
-  width="140"
-  src="https://evoxaovivo.com.br/wp-content/uploads/2020/06/logoEvoxFundoRoxo.png"
+/* Estilo para as imagens da página */
+img {
+  max-width: 100%;
+}
+
+/* Estilo para a rodapé da página */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
