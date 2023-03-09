@@ -1,0 +1,14 @@
+/* Defina a altura do mapa para 500 pixels */
+#map {
+  height: 500px;
+}
+
+/* Adicione margem inferior para separar o formulário da coluna */
+.col-md-4 {
+  margin-bottom: 20px;
+}
+
+.img
+  height="70"
+  width="140"
+  src="https://evoxaovivo.com.br/wp-content/uploads/2020/06/logoEvoxFundoRoxo.png"
